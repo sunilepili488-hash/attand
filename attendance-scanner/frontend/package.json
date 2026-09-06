@@ -1,0 +1,33 @@
+{
+  "name": "attendscan-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "dev:https": "vite --https",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "phone": "npx localtunnel --port 5173"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "framer-motion": "^11.2.10",
+    "axios": "^1.7.2",
+    "lucide-react": "^0.379.0",
+    "@tanstack/react-query": "^5.40.0",
+    "tesseract.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.13"
+  }
+}
